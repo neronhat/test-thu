@@ -6,4 +6,8 @@ int main()
 	cout<<"hello ban";
 	system("pause");
 	
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master
