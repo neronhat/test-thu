@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
 int a;
-int b;
+int c;
 void tinh()
 {
-	cout<<a+b;
+	cout<<a+c;
 }
 
 void xuat()
@@ -19,8 +19,8 @@ int main()
 	
 	cout<<"a";
 	cin>>a;
-	cout<<"b";
-	cin>>b;
+	cout<<"c";
+	cin>>c;
 	tinh();
 	xuat();
 	cout<<"hello ban";
