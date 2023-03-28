@@ -7,7 +7,10 @@ void tinh()
 	cout<<a+b;
 }
 
-
+void xuat()
+{
+	cout<<"okay";
+}
 
 
 int main()
@@ -19,6 +22,7 @@ int main()
 	cout<<"b";
 	cin>>b;
 	tinh();
+	xuat();
 	cout<<"hello ban";
 	system("pause");
 	
