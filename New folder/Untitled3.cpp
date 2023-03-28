@@ -2,9 +2,10 @@
 using namespace std;
 int a;
 int c;
+int b;
 void tinh()
 {
-	cout<<a+c;
+	cout<<a+c+b;
 }
 
 void xuat()
