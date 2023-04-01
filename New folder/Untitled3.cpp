@@ -3,10 +3,11 @@ using namespace std;
 int a;
 int c;
 int b;
-int d;
+int tong;
 void tinh()
 {
-	cout<<a+c+b+d;
+	tong =a+c+b;
+	cout<<tong;
 }
 
 void xuat()
@@ -23,8 +24,8 @@ int main()
 	cin>>a;
 	cout<<"c";
 	cin>>c;
-		cout<<"d";
-	cin>>d;
+		cout<<"b";
+	cin>>b;
 	tinh();
 	xuat();
 	cout<<"hello ban";
