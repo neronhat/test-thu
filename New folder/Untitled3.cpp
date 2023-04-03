@@ -3,28 +3,33 @@ using namespace std;
 int a;
 int c;
 int b;
+int tong;
+
 void tinh()
 {
-	cout<<a+c+b;
+	tong =a+c+b;
+  //  *p_tong = tong;
 }
 
-void xuat()
+void xuat(int *p)
 {
-	cout<<"okay";
+	cout<<"vay ket qua cua tinh la"<<*p<<" voi chia chi la "<<&*p;
 }
 
 
 int main()
 {
 
-	
+	int *p_tong=&tong;
 	cout<<"a";
 	cin>>a;
 	cout<<"c";
 	cin>>c;
+		cout<<"b";
+	cin>>b;
 	tinh();
-	xuat();
-	cout<<"hello ban";
+	xuat(p_tong);
+	cout<<"hello ban"<<*p_tong;
 	system("pause");
 	
 }
